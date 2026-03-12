@@ -1,0 +1,7 @@
+# Ignore artifacts (don't commit trained models >100MB if possible)
+artifacts/*.pkl
+artifacts/*.png
+__pycache__/
+.env
+*.csv
+!data/generate_dataset.py
